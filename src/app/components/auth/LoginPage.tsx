@@ -8,8 +8,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui
 import { toast } from 'sonner';
 import { Droplet } from 'lucide-react';
 
-// Some comment
-
 export const LoginPage: React.FC = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
